@@ -1,0 +1,24 @@
+﻿
+@{
+    Layout = null;    
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <link href="~/site.css" rel="stylesheet" />
+    <title>Session Test Page</title>
+</head>
+<body>
+    <h1>Saving app state in session: Result</h1>
+
+    <div id="result">
+        Number of users : @Model
+    </div>
+    <ul>
+        <li><a asp-controller="home" asp-action="index">home</a></li>        
+    </ul>
+</body>
+</html>
